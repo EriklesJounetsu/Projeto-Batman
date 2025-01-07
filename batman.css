@@ -58,8 +58,11 @@ li:hover{
 .content{
     width: 60%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+}
+.trailer{
+    width: 50%;
 }
 #sinopse{
     width: 50%;
@@ -72,7 +75,7 @@ li:hover{
     color:#fff;
     font-size: 19px;
     font-family:"Kdam Thmor Pro", sans-serif;
-    width: 70%;
+    width: 90%;
 }
 .button{
     width: 200px;
@@ -82,12 +85,17 @@ li:hover{
     padding: 8px 10px;
     border-radius: 5px;
     cursor: pointer;
-    transform: .8s;
+    transition: .8s;
     font-size: 18px;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-weight: bold;
     border: none;
     outline: none;
     margin-top: 25px;
+}
+.button:hover{
+    background-color: #fff;
+    color: #000;
 }
